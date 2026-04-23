@@ -1,5 +1,7 @@
 import sql from "@/lib/db";
 
+export const dynamic = "force-dynamic";
+
 type Post = { id: number; title: string; body: string };
 
 export default async function Home() {
